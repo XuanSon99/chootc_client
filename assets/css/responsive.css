@@ -1,0 +1,283 @@
+@media (max-width: 1024px) {
+    .mowtainer {
+        width: 90%;
+    }
+
+    .language {
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    .language .dropdown-menu {
+        min-width: 10rem;
+    }
+
+    .kyc {
+        display: block;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .mowgrid {
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    }
+
+    .news .mowgrid {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .detail .feature {
+        display: none;
+    }
+
+    .detail .main-content {
+        width: 100%;
+    }
+
+    .mini-posts {
+        display: none !important;
+    }
+
+    header {
+        box-shadow: 0px 0px 50px #ffffff10;
+    }
+
+    .menu {
+        display: none !important;
+    }
+
+    .menu-bar {
+        display: block;
+    }
+
+    #partner .mowgrid {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    }
+
+    main {
+        min-height: calc(100vh - 100px);
+    }
+
+    main,
+    footer {
+        overflow: hidden;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .item.exchange {
+        margin-top: 50px;
+    }
+
+    .grid-footer {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .foot {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .space {
+        flex-wrap: wrap;
+    }
+
+    .mowtainer {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .mowgrid {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .note {
+        margin-bottom: 25px;
+        font-size: 12px;
+    }
+
+    footer {
+        margin-top: 25px;
+        font-size: 14px;
+    }
+
+    .tab {
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .detail-price {
+        gap: 25px;
+        margin: 25px 0;
+    }
+
+    .detail-price .item {
+        padding: 20px;
+    }
+
+    .blog h1.title {
+        margin: 0 auto;
+    }
+
+    .blog-head {
+        margin-bottom: 30px;
+    }
+
+    h1.title {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .detail .main-content h1 {
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 500;
+    }
+
+    #partner .mowgrid {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        grid-gap: 20px 30px;
+    }
+
+    #partner .image img {
+        height: auto;
+        width: 40px;
+    }
+
+    #partner .image h3 {
+        font-size: 16px;
+    }
+
+    .detail .details {
+        padding: 0;
+        box-shadow: none;
+    }
+
+    .main-content .author {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .mowpad {
+        padding: 40px 0;
+    }
+
+    .news .content h2 {
+        margin-bottom: 10px;
+    }
+
+    .foot {
+        text-align: center;
+    }
+
+    .foot .justify-end {
+        justify-content: center !important;
+    }
+
+    .v-data-table>.v-data-table__wrapper>table>tbody>tr>th,
+    .v-data-table>.v-data-table__wrapper>table>tfoot>tr>th,
+    .v-data-table>.v-data-table__wrapper>table>thead>tr>th {
+        font-size: 12px;
+    }
+
+    .v-data-table td {
+        font-size: 12px !important;
+    }
+
+    .v-data-table span {
+        display: block;
+    }
+
+    .gold-price .price-down,
+    .gold-price .price-up {
+        font-size: 12px;
+    }
+
+    .mowtit {
+        font-size: 18px;
+    }
+
+    .pd-30 {
+        padding: 20px;
+    }
+
+    footer {
+        padding-top: 100px;
+    }
+
+    .item.exchange {
+        margin-top: 30px;
+    }
+
+    .item {
+        box-shadow: 0 0 100px #ffffff20;
+    }
+
+    .vertical-news h3 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .vertical-news .content span {
+        font-size: 12px;
+    }
+
+    .vertical-news .image img {
+        width: 140px;
+    }
+
+    .vertical-news .content {
+        left: 155px;
+    }
+
+    .mowtit.big-title {
+        font-size: 24px;
+    }
+
+    .big-title::after {
+        height: 28px;
+        width: 5px;
+    }
+
+    .mowtit.big-title {
+        padding-left: 15px;
+    }
+
+    .foot-logo h1 {
+        display: none;
+    }
+
+    .news .content {
+        padding: 20px;
+    }
+
+    .price-down,
+    .price-up,
+    .up-color,
+    .down-color {
+        width: max-content;
+    }
+
+    .max-content {
+        width: max-content;
+    }
+
+    .pd-top {
+        padding-top: 30px;
+    }
+
+    .foot-logo img {
+        height: 113px;
+    }
+    .foot {
+        grid-template-columns: 1fr !important;
+    }
+}

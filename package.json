@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@nuxt/image-edge": "^1.0.0-28088649.74a91bd",
+    "@types/node": "^18",
+    "@types/rss": "^0.0.30",
+    "nuxt": "^3.5.0",
+    "nuxt-simple-sitemap": "^2.6.1"
+  },
+  "dependencies": {
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@mdi/font": "^7.2.96",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "axios": "^1.4.0",
+    "easy-js-camera": "^2.1.0",
+    "easy-vue-camera": "^1.0.5",
+    "ipx": "^1.1.0",
+    "moment": "^2.29.4",
+    "nuxt-jsonld": "^2.0.8",
+    "rss": "^1.2.2",
+    "sass": "^1.62.1",
+    "vue-meta": "^2.4.0",
+    "vue-social-sharing": "^4.0.0-alpha4",
+    "vuetify": "^3.2.2"
+  }
+}
